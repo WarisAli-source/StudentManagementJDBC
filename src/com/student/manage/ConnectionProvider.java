@@ -20,7 +20,6 @@ public class ConnectionProvider {
 			con = DriverManager.getConnection(url,user,password);
 			
 			
-			
 		}
 		catch(Exception e) {
 			e.printStackTrace();

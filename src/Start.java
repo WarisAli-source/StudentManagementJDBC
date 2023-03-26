@@ -28,7 +28,6 @@ public class Start {
 					
 					System.out.println("Enter Student City");
 					String city = br.readLine();
-					
  
 					Student st = new Student(name,phone,city);
 					boolean answer= StudentDao.insertIntoDB(st);
